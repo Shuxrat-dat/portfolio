@@ -662,3 +662,11 @@ color: #fff;
 .footer-socials a{
   margin: 0 10px;
 }
+.footer-socials a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease;
+}
+.footer-socials a:hover{
+  color: #a855f7;
+}
