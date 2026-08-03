@@ -165,6 +165,37 @@ export const skillMeters = [
 export const projects = [
   {
     id: "01",
+    slug: "companyos",
+    title: "CompanyOS",
+    subtitle: "Корпоративная платформа",
+    summary:
+      "Корпоративная операционная система для управления компанией: сотрудники, проекты, задачи, документы, коммуникации, HR, аналитика, биллинг и AI-ассистент в единой мультитenant-платформе.",
+    description:
+      "Монорепозиторий на NestJS + Next.js с PostgreSQL, Redis, очередями и production-ready инфраструктурой.",
+    features: [
+      "Организационная структура и рабочие пространства",
+      "Проекты, задачи, документы и календарь",
+      "RBAC, аудит и безопасность",
+      "Автоматизации и аналитика",
+      "AI-ассистент и биллинг",
+      "Интеграции, webhooks и API-ключи",
+    ],
+    stack: [
+      "NestJS",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Redis",
+      "Docker",
+      "Turborepo",
+    ],
+    href: "https://github.com/Shuxrat-dat/companyos",
+    accent: "#2dd4bf",
+    image: "/projects/companyos.png",
+  },
+  {
+    id: "02",
     slug: "payforge",
     title: "PayForge",
     subtitle: "Платформа управления платежами",
@@ -195,7 +226,7 @@ export const projects = [
     image: "/projects/payforge.png",
   },
   {
-    id: "02",
+    id: "03",
     slug: "switchlab",
     title: "SwitchLab",
     subtitle: "Лаборатория управления устройствами",
@@ -214,7 +245,7 @@ export const projects = [
     image: "/projects/switchlab.png",
   },
   {
-    id: "03",
+    id: "04",
     slug: "ai-agent",
     title: "AI Agent",
     subtitle: "Локальный AI-ассистент",

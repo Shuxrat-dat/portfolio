@@ -67,7 +67,11 @@ function ProjectScreenshot({
                 }`}
                 onLoad={() => setLoaded(true)}
                 onError={() => setFailed(true)}
-                priority={project.slug === "payforge" || project.slug === "ai-agent"}
+                priority={
+                  project.slug === "companyos" ||
+                  project.slug === "payforge" ||
+                  project.slug === "ai-agent"
+                }
               />
             </motion.div>
           ) : (
